@@ -48,20 +48,15 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Shared\Messages\EndpointHeartbeat.cs">
-      <Link>EndpointHeartbeat.cs</Link>
-    </Compile>
-    <Compile Include="..\Shared\VersionChecker.cs">
-      <Link>VersionChecker.cs</Link>
-    </Compile>
-    <Compile Include="..\Shared\ServiceControlBackend.cs">
-      <Link>ServiceControlBackend.cs</Link>
-    </Compile>
+    <Compile Include="Messages\EndpointHeartbeat.cs" />
     <Compile Include="EnrichPreV44MessagesWithHostDetailsMutator.cs" />
     <Compile Include="Heartbeats.cs">
       <ItemGuid>b6853f33-21ff-4295-9a4c-b9683bd2be58</ItemGuid>
     </Compile>
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Messages\RegisterEndpointStartup.cs" />
+    <Compile Include="ServiceControlBackend.cs" />
+    <Compile Include="VersionChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

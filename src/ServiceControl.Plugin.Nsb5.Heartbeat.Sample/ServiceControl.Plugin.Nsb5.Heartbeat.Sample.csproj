@@ -57,6 +57,12 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceControl.Plugin.Nsb5.Heartbeat\ServiceControl.Plugin.Nsb5.Heartbeat.csproj">
+      <Project>{842c0a62-348b-4e78-b9f1-ec931cddd562}</Project>
+      <Name>ServiceControl.Plugin.Nsb5.Heartbeat</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <StartAction>Program</StartAction>
